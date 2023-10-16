@@ -6,14 +6,15 @@ export default function Home() {
       <div className="absolute h-screen w-screen overflow-hidden">
         <div className="absolute -ml-[200px] -mt-[250px] h-[500px] w-[400px] rounded-full bg-red-600 opacity-[0.35] blur-[400px]"></div>
         <div className="absolute bottom-0 right-0 -mb-[90px] -mr-[100px] h-[300px] w-[200px] rounded-full bg-red-600 opacity-40 blur-[400px]"></div>
+        <div className="absolute bottom-0 h-12 w-screen bg-white opacity-70"></div>
       </div>
 
-      <section className="bg-grain flex h-screen w-screen flex-col justify-around bg-cover text-center">
-        <h1 className="font-alt text-5xl font-extrabold text-[#FF3131]">
+      <section className="flex h-screen w-screen flex-col justify-around bg-grain bg-cover text-center">
+        <h1 className="pt-4 font-alt text-5xl font-extrabold text-[#FF3131]">
           Logo®
         </h1>
 
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 pb-14">
           <h1 className="text-3xl font-normal">
             Assista até o final do vídeo <br /> se quiser{" "}
             <span className="font-bold text-[#FF3131]">
@@ -29,8 +30,6 @@ export default function Home() {
             position="relative"
           />
         </div>
-
-        <div></div>
       </section>
     </main>
   );
